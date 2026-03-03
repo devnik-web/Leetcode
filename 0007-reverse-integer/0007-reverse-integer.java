@@ -5,13 +5,8 @@ class Solution {
         while(n!=0)
         {
             int digit=n%10;
-            if (rev > Integer.MAX_VALUE / 10 || 
-               (rev == Integer.MAX_VALUE / 10 && digit > 7))
+            if (rev>214748364 || rev< -214748364)
                 return 0;
-
-            if (rev < Integer.MIN_VALUE / 10 || 
-               (rev == Integer.MIN_VALUE / 10 && digit < -8))
-               return 0;
             rev=(rev*10)+digit;
             n/=10;
         }
