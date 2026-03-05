@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/devnik-web/Leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/devnik-web/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/devnik-web/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/devnik-web/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 ## Hash Table
 |  |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/devnik-web/Leetcode/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/devnik-web/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/devnik-web/Leetcode/tree/master/0020-valid-parentheses) |
 ## Stack
 |  |
@@ -43,4 +45,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/devnik-web/Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/devnik-web/Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
