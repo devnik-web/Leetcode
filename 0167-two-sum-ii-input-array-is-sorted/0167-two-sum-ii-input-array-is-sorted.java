@@ -4,11 +4,12 @@ class Solution {
         int right=numbers.length-1;
         while(left<right)
         {
-            if(numbers[left]+numbers[right]==target)
+            int total=numbers[left]+numbers[right];
+            if(total==target)
                 return new int[] {left+1,right+1};
-            else if(numbers[left]+numbers[right]<target)
+            else if(total<target)
                 left++;
-            else if(numbers[left]+numbers[right]>target)
+            else if(total>target)
                 right--;
         }
         return new int[] {-1,-1};
