@@ -15,9 +15,9 @@ class Solution {
             else if(nums[right]==0)
                 right++;
             else{
-                nums[left]=nums[left]^nums[right];
-                nums[right]=nums[left]^nums[right];
-                nums[left]=nums[left]^nums[right];
+                int temp=nums[right];
+                nums[right]=nums[left];
+                nums[left]=temp;
                 left++;
             }
         }
