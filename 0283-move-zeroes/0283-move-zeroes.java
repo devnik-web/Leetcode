@@ -5,7 +5,7 @@ class Solution {
         int left=0;
         int right=1;
         int len=nums.length-1;
-        while(right<=len && left<=len)
+        while(right<=len)
         {
             if(nums[left]!=0)
             {
