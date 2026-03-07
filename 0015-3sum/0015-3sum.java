@@ -28,7 +28,7 @@ class Solution {
                     right--;
             }
         }
-        List<List<Integer>> outputList=new ArrayList<>(uniqueList);
-        return outputList;
+       
+        return new ArrayList<>(uniqueList);
     }
 }
