@@ -21,6 +21,11 @@ class Solution {
                         Arrays.asList(nums[left],nums[mid],nums[right])));
                     mid++;
                     right--;
+
+                    while(mid < right && nums[mid] == nums[mid-1])
+                        mid++;
+                    while(mid < right && nums[right] == nums[right+1])
+                        right--;
                 }
                 else if(nums[left]+nums[mid]+nums[right]<0)
                     mid++;
