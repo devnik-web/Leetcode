@@ -5,8 +5,7 @@ class Solution {
         int len=nums.length;
         Set<List<Integer>> uniqueList=new HashSet<>();
         if(nums.length<3)
-        {
-            
+        { 
             return new ArrayList<>();
         }
 
@@ -18,10 +17,12 @@ class Solution {
             {
                 if(nums[left]+nums[mid]+nums[right]==0)
                 {
-                     uniqueList.add(new ArrayList<>(
+                    uniqueList.add(new ArrayList<>(
                         Arrays.asList(nums[left],nums[mid],nums[right])));
+                    mid++;
+                    right--;
                 }
-                if(nums[left]+nums[mid]+nums[right]<0)
+                else if(nums[left]+nums[mid]+nums[right]<0)
                     mid++;
                 else 
                     right--;
