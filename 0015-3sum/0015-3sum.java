@@ -6,8 +6,8 @@ class Solution {
         Set<List<Integer>> uniqueList=new HashSet<>();
         if(nums.length<3)
         {
-            List<List<Integer>> outputList=new ArrayList<>(uniqueList);
-            return outputList;
+            
+            return new ArrayList<>();
         }
 
         for(int left=0;left<len;left++)
