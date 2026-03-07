@@ -2,6 +2,7 @@ import java.util.*;
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
+        int len=nums.length;
         Set<List<Integer>> uniqueList=new HashSet<>();
         if(nums.length<3)
         {
@@ -9,10 +10,10 @@ class Solution {
             return outputList;
         }
 
-        for(int left=0;left<nums.length-2;left++)
+        for(int left=0;left<len;left++)
         {
             int mid=left+1;
-            int right=nums.length-1;
+            int right=len-1;
             while(mid<right)
             {
                 if(nums[left]+nums[mid]+nums[right]==0)
