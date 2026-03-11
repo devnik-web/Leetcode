@@ -1,25 +1,29 @@
 class Solution {
     public int trap(int[] height) {
         int len=height.length;
-        int[] lMaxArr=new int[len];
-        int[] rMaxArr=new int[len];
+        int l=0;        //left pointer
+        int r=len-1;    //right pointer
+        int lMax=0;     //max value seen till left pointer
+        int rMax=0;     //max value seen untill right pointer 
+        int total=0;    //total water
 
-        lMaxArr[0]=height[0];
-        rMaxArr[len-1]=height[len-1];
-        for(int i=1;i<len;i++)
+        //traversing from both side (left and right)
+        while(l<r)
         {
-            lMaxArr[i]=Math.max(height[i],lMaxArr[i-1]);
-        }
-        for(int i=len-2;i>=0;i--)
-        {
-            rMaxArr[i]=Math.max(height[i],rMaxArr[i+1]);
-        }
+            lMax=Math.max(lMax,height[l]);      //calculates the Max left wall at each l
+            rMax=Math.max(rMax,height[r]);      //calculates the Max right wall at each l
 
-        int total=0;
-        for(int i=0;i<len;i++)
-        {
-            if(lMaxArr[i]>height[i] && rMaxArr[i]>height[i])
-                total+=Math.min(lMaxArr[i],rMaxArr[i])-height[i];
+            if(lMax<rMax)           //if left wall smaller 
+            {
+                total+=lMax-height[l];      
+                l++;
+            }
+            else                    //if right wall smaller
+            {
+                total+=rMax-height[r];
+                r--;
+            }
+            
         }
 
         return total;
