@@ -10,20 +10,30 @@ class Solution {
         //traversing from both side (left and right)
         while(l<r)
         {
-            lMax=Math.max(lMax,height[l]);      //calculates the Max left wall at each l
-            rMax=Math.max(rMax,height[r]);      //calculates the Max right wall at each l
-
-            if(lMax<rMax)           //if left wall smaller 
+            if(height[l]<height[r])         //decides which current wall is smaller 
             {
-                total+=lMax-height[l];      
+                if(height[l]>=lMax)
+                {
+                    lMax=height[l];
+                }
+                else
+                {
+                    total+=lMax-height[l];
+                }
                 l++;
             }
-            else                    //if right wall smaller
+            else
             {
-                total+=rMax-height[r];
+                if(height[r]>=rMax)
+                {
+                    rMax=height[r];
+                }
+                else
+                {
+                    total+=rMax-height[r];
+                }
                 r--;
             }
-            
         }
 
         return total;
