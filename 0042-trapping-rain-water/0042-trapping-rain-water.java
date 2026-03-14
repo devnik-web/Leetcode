@@ -12,7 +12,7 @@ class Solution {
         {
             if(height[l]<height[r])         //decides which current wall is smaller 
             {
-                if(height[l]>=lMax)
+                if(height[l]>=lMax)         //means current is greater than max so all water splits
                 {
                     lMax=height[l];
                 }
@@ -24,7 +24,7 @@ class Solution {
             }
             else
             {
-                if(height[r]>=rMax)
+                if(height[r]>=rMax)         //means current is greater than max so all water splits
                 {
                     rMax=height[r];
                 }
