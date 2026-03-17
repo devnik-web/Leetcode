@@ -6,7 +6,7 @@ class Solution {
         int right=len-1;
         while(left<right)
         {
-            int sum=Math.min(height[left],height[right])*(right-left);
+            int sum=Math.min(height[left],height[right]) * (right-left);
             if(sum>max)
                 max=sum;
             if(height[left]<height[right])
