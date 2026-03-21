@@ -122,4 +122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0992-subarrays-with-k-different-integers](https://github.com/devnik-web/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/devnik-web/Leetcode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
