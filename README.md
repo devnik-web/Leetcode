@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/devnik-web/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/devnik-web/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/devnik-web/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/devnik-web/Leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/devnik-web/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/devnik-web/Leetcode/tree/master/0075-sort-colors) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/devnik-web/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/devnik-web/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0035-search-insert-position](https://github.com/devnik-web/Leetcode/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/devnik-web/Leetcode/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/devnik-web/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/devnik-web/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
