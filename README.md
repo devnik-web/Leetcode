@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/devnik-web/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/devnik-web/Leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/devnik-web/Leetcode/tree/master/0013-roman-to-integer) |
+| [0066-plus-one](https://github.com/devnik-web/Leetcode/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/devnik-web/Leetcode/tree/master/0069-sqrtx) |
 ## Array
 |  |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/devnik-web/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/devnik-web/Leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/devnik-web/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0066-plus-one](https://github.com/devnik-web/Leetcode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/devnik-web/Leetcode/tree/master/0075-sort-colors) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/devnik-web/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/devnik-web/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
